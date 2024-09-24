@@ -31,7 +31,6 @@ body{
 
 .divtres{
     background-color: gray;
-    grid-area: 100%;
     grid-row: 1/5;
     
 
