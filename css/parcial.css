@@ -1,0 +1,58 @@
+body{
+    background: url(../recursos/image.png) top/cover no-repeat;
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 100px 100px 100px 100px;
+    gap: 1px;      
+  }
+
+  .grid-container{
+    padding: 40px;
+    text-align: center;
+  }
+.divuno{
+    background-color: mediumorchid;
+    grid-area: 100%;
+    grid-row: 1/5;
+    text-align: center;
+  
+}
+.divdos{
+    background-color: black;
+    color: green;
+    grid-column: 2/4;
+    grid-row: 1/3;
+}
+
+
+.divtres{
+    background-color: gray;
+    grid-area: 100%;
+    grid-row: 1/5;
+    
+
+}
+.divcuatro{
+    background-color: white;
+    grid-area: auto;
+    grid-column: 2/4;
+    grid-row: 3/5;
+    display: flex;
+    padding: 30px;
+    gap: 2px;
+}
+header{
+    text-align: center;
+    color: rgb(165, 185, 47);
+}
+.fondo{
+    background-color: gray;
+}
+.divcuatro > div{
+    width: 33%;
+
+}
